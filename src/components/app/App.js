@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Sidebar from '../side/side'
 const App = () => {
   return (
-    <div>Fashion Project</div>
+    <div><Sidebar/></div>
   )
 }
 
