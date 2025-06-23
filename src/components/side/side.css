@@ -1,0 +1,79 @@
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    font-size: 56px;
+    font-weight: bold;
+    background: url('/public/img/bg_1.jpg.webp') no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-size: 14px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffcc00;
+    border-bottom: 1px solid #ffcc00;
+    padding-bottom: 4px;
+}
+
+.sidebar-bottom {
+    font-size: 12px;
+    color: #888;
+}
+
+.newsletter-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    border: 1px solid #444;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.heart {
+    color: red;
+    padding: 0 4px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
