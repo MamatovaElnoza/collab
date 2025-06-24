@@ -17,7 +17,6 @@
     font-weight: bold;
     background: url('/public/img/bg_1.jpg.webp') no-repeat center;
     background-size: cover;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
 }
