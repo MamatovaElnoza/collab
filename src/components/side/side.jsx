@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './side.css';
 
 const Sidebar = () => {
-    const [active, setActive] = useState('gallery');
+    const [active, setActive] = useState('home');
     const menuItems = ['home', 'gallery', 'about', 'pricing', 'contact'];
 
     return (
